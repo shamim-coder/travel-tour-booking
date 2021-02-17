@@ -1,0 +1,58 @@
+* {
+    color: #fff;
+}
+i {
+    color: #fede01;
+}
+
+
+/* User Info */
+.user-info {
+    border-bottom: 2px solid gray;
+    padding: 15px 0;
+}
+.user-login span {
+    margin-left: 20px;
+}
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li {
+    list-style: none;
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#header-section{
+    background-image: url(../images/header-bg.jpg);
+    height: 100vh;
+}
+.social-link a {
+    margin-right: 15px;
+}
+.contact-info-top a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.header-top {
+    background-color: rgba(8, 8, 8, 0.4);
+}
+.menu {
+    line-height: 3rem;
+}
+.menu-section {
+    padding: 15px 0 0;
+}
+.header-body {
+    padding: 100px 0;
+    width: 60%;
+    margin: auto;
+}
