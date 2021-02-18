@@ -5,7 +5,7 @@ i {
     color: #fede01;
 }
 
-
+.logo img {margin-top: 10px;}
 /* User Info */
 .user-info {
     border-bottom: 2px solid gray;
@@ -17,18 +17,27 @@ i {
 .menu ul {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 0;
 }
 .menu ul li {
     list-style: none;
-    
+    border-bottom: 2px solid transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 4rem;
+    transition-duration: .2s;
+}
+.menu ul li:hover {
+    border-bottom: 2px solid goldenrod;
 }
 .menu ul li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    display: block;
+}
+.menu ul li:last-child {
+    margin-right: 0;
 }
 #header-section{
     background-image: url(../images/header-bg.jpg);
@@ -44,12 +53,6 @@ i {
 }
 .header-top {
     background-color: rgba(8, 8, 8, 0.4);
-}
-.menu {
-    line-height: 3rem;
-}
-.menu-section {
-    padding: 15px 0 0;
 }
 .header-body {
     padding: 100px 0;
