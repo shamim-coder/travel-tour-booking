@@ -191,3 +191,153 @@ section#about-section {
     margin-right: 15px;
     vertical-align: middle;
 }
+
+/* Service Section */
+.service-icon {
+    width: 100px;
+}
+.service-icon i {
+    font-size: 55px;
+    color: #00a4ff;
+}
+.service-description h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+.heading h2 {
+    font-size: 37px;
+}
+.heading h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Pricing Section */
+#pricing-section {
+    background-image: url(../images/bg-1.jpg);
+    background-color: #00a4ff;
+    background-repeat: no-repeat;
+    background-position: bottom 200px center;
+}
+.price-list ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.price-list ul li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    -webkit-font-smoothing: antialiased;
+    margin-right: 15px;
+    font-size: 17px;
+    color: #00a4ff;
+    vertical-align: middle;
+}
+.price-list{
+    margin-left: 15%;
+}
+.card-body i {
+    font-size: 65px;
+    color: #373737;
+    margin-top: 15px;
+}
+.card-body h4 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card-body h5 {
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #f0d839;
+    margin-left: -25px;
+    width: 357px;
+    padding: 10px 0;
+}
+.price-item {
+    border-radius: 10px;
+}
+.side-img img {
+    border-radius: 10px;
+}
+.travel-breadcrumb ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid #00a4ff;
+    padding: 0;
+    
+}
+.travel-breadcrumb ul li a.flight {
+    background-color: #00a4ff;
+    color: #ffffff;
+}
+.travel-breadcrumb ul li a.cab {
+    background-color: #e4e4e4;
+    color: #373737;
+}
+.travel-breadcrumb ul li a.hotel {
+    background-color: white;
+    color: #373737;
+}
+.travel-breadcrumb ul li a {
+    display: block;
+    line-height: 90px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    padding-left: 65px;
+    padding-right: 52px;
+}
+ 
+.travel-breadcrumb ul li a::after {
+    content: '';
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    background-color: #00a4ff;
+    top: 13px;
+    right: -32px;
+    transform: rotate(45deg);
+    z-index: 1000;
+}
+.travel-breadcrumb ul li a.cab::after{
+    background-color: #e4e4e4;
+}
+.travel-breadcrumb ul li a::before {
+    content: '';
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    background-color: white;
+    top: 13px;
+    left: -32px;
+    transform: rotate(45deg);
+    z-index: 900;
+}
+.travel-breadcrumb ul li:first-child a::before {
+    display: none;
+}
+.travel-breadcrumb ul li:last-child a::after {
+    display: none;
+}
+.travel-breadcrumb ul li i {
+    margin-right: 13px;
+    font-size: 38px;
+    vertical-align: middle;
+    color: #4e4e4e;
+}
+.travel-breadcrumb ul li:first-child a {
+    padding-left: 30px;
+}
+.travel-breadcrumb ul li:last-child a {
+    padding-right: 0px;
+}
+.travel-breadcrumb ul li:first-child i {
+    color: #ffffff;
+}
+.flight-cab a.btn {
+    background-color: #f9e03b;
+    text-transform: uppercase;
+    padding: 10px 50px;
+}
