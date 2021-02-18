@@ -28,9 +28,13 @@
                                 <a href="#"><i class="fab fa-github"></i></a>
                                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                            <div class="user-login">
-                                <span><i class="fas fa-user"></i> Login</span>
-                                <span><i class="fas fa-user-plus"></i> Sign Up</span>
+                            <div class="user-login d-flex">
+                                <div class="login">
+                                    <a href="#"><i class="fas fa-user"></i>Login</a>
+                                </div>
+                                <div class="sign-up">
+                                    <a href="#"><i class="fas fa-user-plus"></i>Sign Up</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,55 +67,55 @@
                 <h1>Start Your Greatest</h1>
                 <h2>Advantured with us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet in vero quam provident maiores nostrum minus, ipsum saepe officia excepturi, iusto perferendis! Perspiciatis, rerum praesentium.</p>
-                <a href="#">Click Here</a>
+                <a class="btn btn-warning" href="#">Click Here</a>
             </div>
         </div>
     </header>
-    <section>
+    <section id="find-hotel-section">
         <div class="container">
-            <div class="row">
-                <div class="find-hotels">
-                    <h2>Find Hotels</h2>
-                    <div class="hotel-find-form d-flex justify-content-between">
-                        <div class="location">
-                            <label for="location">Where</label>
-                            <input type="text" name="location" placeholder="Location" id="location">
-                        </div>
-                        <div class="check-in">
-                            <label for="check-in">Check In</label>
-                            <input type="date" name="check-in" id="check-in">
-                        </div>
-                        <div class="check-out">
-                            <label for="check-out">Check Out</label>
-                            <input type="date" name="check-out" id="check-out">
-                        </div>
-                        <div class="adult-num">
-                            <label for="adult">Adult</label>
-                            <input type="number" name="adult" placeholder="01" id="adult">
-                        </div>
-                        <div class="child-num">
-                            <label for="child">Child</label>
-                            <input type="number" name="child" placeholder="00" id="child">
-                        </div>
-                        <button>Submit</button>
+            <div class="find-hotels">
+                <h2 class="text-center text-uppercase mb-5">Find Hotels</h2>
+                <div class="hotel-find-form d-md-flex justify-content-between  align-items-end">
+                    <div class="location input">
+                        <label for="location">Where</label>
+                        <input type="text" name="location" placeholder="Location" id="location">
+                    </div>
+                    <div class="check-in input">
+                        <label for="check-in">Check In</label>
+                        <input type="date" name="check-in" id="check-in">
+                    </div>
+                    <div class="check-out input">
+                        <label for="check-out">Check Out</label>
+                        <input type="date" name="check-out" id="check-out">
+                    </div>
+                    <div class="adult-num input">
+                        <label for="adult">Adult</label>
+                        <input type="number" name="adult" placeholder="01" id="adult">
+                    </div>
+                    <div class="child-num input">
+                        <label for="child">Child</label>
+                        <input type="number" name="child" placeholder="00" id="child">
+                    </div>
+                    <div class="form-btn">
+                        <button class="btn">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
+    <section id="about-section">
+        <div class="ddd text-dark">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="images/about-image.jpg" alt="">
+                <div class="col-md-6 about-img">
+                    <img class="img-fluid" src="images/about-image.jpg" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 about-content">
                     <h2>Trusted Since 2001</h2>
                     <h3>We are Exploore</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur asperiores consequatur laborum illo! Eius sequi doloribus veritatis doloremque atque aliquid magnam iure iusto, temporibus animi nostrum harum quas similique est.</p>
                     <div class="about-list">
                         <ul>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut omnis laborum.</li>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit.</li>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit.</li>
                         </ul>
@@ -120,5 +124,6 @@
             </div>
         </div>
     </section>
+
 </body>
 </html>
