@@ -77,6 +77,10 @@ i {
     text-decoration: none;
     margin-right: 50px;
 }
+.contact-info-top i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
 .header-top {
     background-color: rgba(8, 8, 8, 0.4);
 }
@@ -182,9 +186,14 @@ section#about-section {
     color: #00a4ff;
     vertical-align: middle;
 }
+.about-img img {
+    height: 100%;
+    object-fit: cover;
+}
 .about-img {
     padding-right: 0;
 }
+
 .about-content ul li i {
     color: #00a4ff;
     font-size: 30px;
@@ -236,17 +245,17 @@ section#about-section {
 .price-list{
     margin-left: 15%;
 }
-.card-body i {
+.price-body i {
     font-size: 65px;
     color: #373737;
     margin-top: 15px;
 }
-.card-body h4 {
+.price-body h4 {
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
-.card-body h5 {
+.price-body h5 {
     font-size: 30px;
     font-weight: 500;
     background-color: #f0d839;
@@ -340,4 +349,62 @@ section#about-section {
     background-color: #f9e03b;
     text-transform: uppercase;
     padding: 10px 50px;
+}
+
+
+#pack-and-go {
+    background-image: url(../images/bg-2.jpg);
+    background-color: #00a4ff;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    padding-bottom: 100px;
+    
+}
+.center-card {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 0px 5px #333;
+}
+/* .triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 100px solid white;
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    bottom: -100px;
+    left: 0;
+    filter: drop-shadow(0 2px 1px #333);
+} */
+.border-radius {
+    border-radius: 10px;
+}
+.radius-left {
+    border-radius: 0 0 0 10px;
+}
+.radius-right {
+    border-radius: 0 0 10px 0;
+}
+.triangle {
+    display: block;
+    height: 265px;
+    width: 265px;
+    background: inherit;
+    border: inherit;
+    position: absolute;
+    bottom: -128px;
+    clip-path: polygon(0% 0%, 100% 100%, 20% 80%);
+    transform: rotate(315deg);
+    left: 53px;
+    border-radius: 1em 0 1em 11.5em;
+}
+.center-card img {
+    border-radius: 10px 10px 0 0;
+}
+.left-card img {
+    border-radius: 10px 0 0 0;
+}
+.right-card img {
+    border-radius: 0 10px 0 0;
 }
