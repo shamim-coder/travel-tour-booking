@@ -182,9 +182,14 @@ section#about-section {
     color: #00a4ff;
     vertical-align: middle;
 }
+.about-img img {
+    height: 100%;
+    object-fit: cover;
+}
 .about-img {
     padding-right: 0;
 }
+
 .about-content ul li i {
     color: #00a4ff;
     font-size: 30px;
@@ -236,17 +241,17 @@ section#about-section {
 .price-list{
     margin-left: 15%;
 }
-.card-body i {
+.price-body i {
     font-size: 65px;
     color: #373737;
     margin-top: 15px;
 }
-.card-body h4 {
+.price-body h4 {
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
-.card-body h5 {
+.price-body h5 {
     font-size: 30px;
     font-weight: 500;
     background-color: #f0d839;
@@ -341,6 +346,151 @@ section#about-section {
     text-transform: uppercase;
     padding: 10px 50px;
 }
+<<<<<<< HEAD
 .flight-cab p {
     line-height: 1.8em;
 }
+=======
+
+
+#pack-and-go {
+    background-image: url(../images/bg-2.jpg);
+    background-color: #00a4ff;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    padding-bottom: 100px;
+}
+.center-card {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 0px 5px #333;
+}
+/* .triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 100px solid white;
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    bottom: -100px;
+    left: 0;
+    filter: drop-shadow(0 2px 1px #333);
+} */
+
+@supports (clip-path: inset(50%)) {
+    .triangle {
+        display: block;
+        height: 265px;
+        width: 265px;
+        background: inherit;
+        border: inherit;
+        position: absolute;
+        bottom: -128px;
+        clip-path: polygon(0% 0%, 100% 100%, 25% 75%);
+        transform: rotate(315deg);
+        left: 53px;
+        border-radius: 1em 0 1em 14.3em;
+    }
+}
+.border-radius {
+    border-radius: 10px;
+}
+.radius-left {
+    border-radius: 0 0 0 10px;
+}
+.radius-right {
+    border-radius: 0 0 10px 0;
+}
+
+.center-card img {
+    border-radius: 10px 10px 0 0;
+}
+.left-card img {
+    border-radius: 10px 0 0 0;
+}
+.right-card img {
+    border-radius: 0 10px 0 0;
+}
+.card-body a {
+    background-color: #f9e03b;
+    padding: 8px 45px
+}
+
+
+
+#go-exploore {
+    background-image: url(../images/bg-3.jpg);
+    background-repeat: no-repeat;
+}
+.service-item img {
+    border-radius: 10px 10px 0 0;
+}
+.service-item .card-body {
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+.service-item a {
+    position: absolute;
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 45px;
+}
+.service-item h4 {
+    font-size: 25px;
+}
+
+#slide-show {
+    background: url(../images/bg-4.jpg) left center / auto;
+    position: relative;
+}
+section#slide-show:before {
+    background: url(../images/mask.jpg) center center;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    mix-blend-mode: screen;
+    background-position: left;
+    background-size: 100%;
+}
+.slide-container {
+    z-index: 10;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.slide-box {
+    padding: 35px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 0px #333;
+}
+.slide-box h4 {
+    font-size: 37px;
+}
+.slide-box h5 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.icon {
+    padding: 10px;
+    margin-right: 35px;
+    text-align: center;
+}
+.icon i {
+    font-size: 50px;
+    color: #00a4ff;
+}
+.icon p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.price-btn a {
+    padding: 10px 25px;
+    display: inline-table;
+}
+>>>>>>> df86180ded1625f97514a9441ecc988939d342a9
