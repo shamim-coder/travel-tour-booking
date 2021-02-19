@@ -29,6 +29,9 @@ i {
     padding: 15px 0;
     font-size: 14px;
 }
+.user-info i {
+    vertical-align: middle;
+}
 .login {
     margin-right: 40px;
 }
@@ -76,6 +79,10 @@ i {
     color: #fff;
     text-decoration: none;
     margin-right: 50px;
+}
+.contact-info-top i {
+    vertical-align: middle;
+    margin-right: 5px;
 }
 .header-top {
     background-color: rgba(8, 8, 8, 0.4);
@@ -151,13 +158,6 @@ section#about-section {
     background-image: url(../images/bg-5.jpg);
     background-size: cover;
     
-}
-.about-content h2 {
-    font-size: 37px;
-}
-.about-content h3 {
-    font-size: 35px;
-    font-weight: 500;
 }
 .about-content p {
     margin: 20px 0;
@@ -263,7 +263,7 @@ section#about-section {
 .travel-breadcrumb ul {
     list-style: none;
     display: flex;
-    border: 1px solid #00a4ff;
+    border: 2px solid #00a4ff;
     padding: 0;
     
 }
@@ -292,12 +292,12 @@ section#about-section {
  
 .travel-breadcrumb ul li a::after {
     content: '';
-    width: 65px;
-    height: 65px;
+    width: 64px;
+    height: 64px;
     position: absolute;
     background-color: #00a4ff;
     top: 13px;
-    right: -32px;
+    right: -30px;
     transform: rotate(45deg);
     z-index: 1000;
 }
@@ -306,12 +306,12 @@ section#about-section {
 }
 .travel-breadcrumb ul li a::before {
     content: '';
-    width: 65px;
-    height: 65px;
+    width: 64px;
+    height: 64px;
     position: absolute;
     background-color: white;
     top: 13px;
-    left: -32px;
+    left: -33px;
     transform: rotate(45deg);
     z-index: 900;
 }
@@ -340,4 +340,7 @@ section#about-section {
     background-color: #f9e03b;
     text-transform: uppercase;
     padding: 10px 50px;
+}
+.flight-cab p {
+    line-height: 1.8em;
 }
